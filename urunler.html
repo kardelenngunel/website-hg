@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaticeGunelBeauty</title>
+    <link rel="icon" href="images/logo2.jpg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    
+</head>
+
+<style>
+    .navbar {
+        background-color: rgba(255, 255, 255, 0); /* Saydam arka plan */
+    }
+    .navbar-nav .nav-link {
+        color: #333; /* Link rengini ayarlayın */
+    }
+    .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;base64,...'); /* Özelleştirilmiş simge için base64 verisi */
+    }
+</style>
+<body>
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.8); /* Saydam arka plan */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            padding: 10px 0;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333; /* Link rengi */
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2885, 85, 85, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .custom-instagram-btn img,
+        .custom-whatsapp-btn img {
+            width: 40px;
+            margin-left: 15px;
+        }
+        .container {
+    max-width: 100%;
+    overflow-x: hidden; /* Genişlik taşmalarını engelle */
+}
+
+.counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e3dede;
+    margin-bottom: 5px;
+    background-image: url(images/pearl4.png);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.animated {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+    color: #fcf1f1;
+}
+
+svg {
+    vertical-align: middle;
+    margin-right: 10px; /* Icon ve metin arasındaki boşluk */
+}
+
+
+        /* Mobil görünüm için düzenlemeler */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                text-align: center;
+            }
+
+            .navbar-nav .nav-item {
+                margin: 5px 0;
+            }
+        }
+        
+     
+    </style>
+</head>
+<body>
+
+    <header style="background-color: transparent; box-shadow: none;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="images/tamam bu.png" alt="Site logo" style="height: 100px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="anasayfa.html">ANA SAYFA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dsvline.html">DS V-LINE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="islemler.html">HİZMETLER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkımda.html">HAKKIMIZDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urunler.html">ÜRÜNLER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ıiletisim.html">İLETİŞİM</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-3">
+                        <a href="https://www.instagram.com/kardelenngunel/?img_index=1" target="_blank" class="custom-instagram-btn">
+                            <img src="images/ınstagram-Photoroom.png" alt="Instagram Logo">
+                        </a>
+                        <a href="https://wa.me/905537363261" target="_blank" class="custom-whatsapp-btn">
+                            <img src="images/whatsapp.png" alt="Whatsapp Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container-fluid p-0"> <!-- Bootstrap'te container-fluid tam genişlik sağlar -->
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <!-- Slider Görüntüsü -->
+                    <div class="slider">
+                        <img id="slide" src="images/anasayfa44.jpg" alt="Slider Image" class="w-100" />
+                        <div class="hero-section">
+                            <div class="text-overlay2">
+                                <h2 style="font-size: 100px;">Ü R Ü N L E R</h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                    <!-- İçi boş beyaz çerçeve -->
+                    <div class="empty-frame mx-auto"></div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            let images = ["images/anasayfa44.jpg"];
+            let currentIndex = 0;
+            
+            function changeImage() {
+                let slide = document.getElementById('slide');
+                slide.classList.remove('active');
+                
+                setTimeout(() => {
+                    currentIndex++;
+                    if (currentIndex >= images.length) {
+                        currentIndex = 0;
+                    }
+                    slide.src = images[currentIndex];
+                    slide.classList.add('active');
+                }, 500);
+            }
+            
+            setInterval(changeImage, 3000);
+        </script>
+    </section>
+    
+    <!-- CSS -->
+    <style>
+        /* Slider Resmi Tam Ekran Kaplasın */
+        .slider img {
+            width: 100%; /* Genişliği tam ekran */
+            height: 50vh; /* Yükseklik tüm ekranı kapsar */
+            object-fit: cover; /* Görüntünün taşmasını engeller ve ortalar */
+        }
+    
+        /* İçi boş beyaz çerçeve */
+        .empty-frame {
+            width: 100%;
+            max-width: 1200px; /* Maksimum genişlik */
+            height: 200px; /* Çerçevenin yüksekliği */
+            border: 2px solid #fff; /* Beyaz ince çerçeve */
+            margin-top: 20px;
+        }
+    </style>
+    
+        

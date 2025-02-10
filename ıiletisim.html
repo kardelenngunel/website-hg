@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaticeGunelBeauty</title>
+    <link rel="icon" href="images/logo2.jpg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    <style>
+        
+    </style>
+</body>
+<style>
+    .navbar {
+        background-color: rgba(255, 255, 255, 0); /* Saydam arka plan */
+    }
+    .navbar-nav .nav-link {
+        color: #333; /* Link rengini ayarlayın */
+    }
+    .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;base64,...'); /* Özelleştirilmiş simge için base64 verisi */
+    }
+</style>
+<body>
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.8); /* Saydam arka plan */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            padding: 10px 0;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333; /* Link rengi */
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2885, 85, 85, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .custom-instagram-btn img,
+        .custom-whatsapp-btn img {
+            width: 40px;
+            margin-left: 15px;
+        }
+        .counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e3dede;
+    margin-bottom: 5px;
+    background-image: url(images/pearl4.png);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.animated {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+    color: #fcf1f1;
+}
+
+svg {
+    vertical-align: middle;
+    margin-right: 10px; /* Icon ve metin arasındaki boşluk */
+}
+
+        /* Mobil görünüm için düzenlemeler */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                text-align: center;
+            }
+
+            .navbar-nav .nav-item {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background-color: transparent; box-shadow: none;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="images/tamam bu.png" alt="Site logo" style="height: 100px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="anasayfa.html">ANA SAYFA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dsvline.html">DS V-LINE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="islemler.html">HİZMETLER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkımda.html">HAKKIMIZDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urunler.html">ÜRÜNLER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ıiletisim.html">İLETİŞİM</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-3">
+                        <a href="https://www.instagram.com/kardelenngunel/?img_index=1" target="_blank" class="custom-instagram-btn">
+                            <img src="images/ınstagram-Photoroom.png" alt="Instagram Logo">
+                        </a>
+                        <a href="https://wa.me/905537363261" target="_blank" class="custom-whatsapp-btn">
+                            <img src="images/whatsapp.png" alt="Whatsapp Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <p><br></p>
+    <p><br></p>
+    <style>
+        .custom-divider {
+            border-top: 2px solid #000;
+            margin: 20px 0;
+        }
+        .divider-title {
+            font-family: 'Crimson Text', serif;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 oran */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #ccc;
+            border-radius: 8px; /* İsteğe bağlı olarak köşeleri yuvarlatma */
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .zoom-in {
+            transition: transform 0.3s ease-in-out;
+        }
+        .zoom-in:hover {
+            transform: scale(1.05);
+        }
+        .text-content p {
+            font-size: 16px;
+        }
+    </style>
+    </head>
+    <body>
+    
+    <div class="container my-5">
+    <div class="custom-divider"></div>
+    <h2 class="divider-title">İLETİŞİM</h2>
+    <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0 zoom-in">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.890488585876!2d34.885744775694356!3d36.94078407220735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527dfa433c61ae5%3A0x4816d95fe5bac525!2sBEYAZ%20EVLER!5e0!3m2!1str!2str!4v1726220457692!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-lg-6 zoom-in">
+            <div class="text-content">
+                <p>Contact Us: <br><br> +90 553 736 32 61 <br><br> htc.gnl@outlook.com <br><br> Kavaklı Mah. 2499. Sk. Olgaç İnşaat Beyaz Evler </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const zoomers = document.querySelectorAll('.zoom-in');
+    
+            const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        appearOnScroll.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: "0px 0px -10px 0px",
+                threshold: 0.25
+            });
+    
+            zoomers.forEach(zoomer => {
+                appearOnScroll.observe(zoomer);
+            });
+        });
+    </script>
+    
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section links">
+                <h2>Kategoriler</h2>
+                <ul>
+                    <li><a href="anasayfa.html">Ana Sayfa</a></li>
+                    <li><a href="dsvline.html">DS V-LINE</a></li>
+                    <li><a href="islemler.html">Hizmetler</a></li>
+                    <li><a href="hakkımda.html">Hakkımızda</a></li>
+                    <li><a href="urunler.html">Ürünler</a></li>
+                    <li><a href="ıiletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>İletişim</h2>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Kavaklı Mah. 2499. Sk. Olgaç Insaat Beyaz Evler</li>
+                    <li><i class="fas fa-phone"></i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M760-480q0-117-81.5-198.5T480-760v-80q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480h-80Zm-160 0q0-50-35-85t-85-35v-80q83 0 141.5 58.5T680-480h-80Zm198 360q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg> +90 553 736 32 61</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:htc.gnl@outlook.com"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>htc.gnl@outlook.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h2>Sosyal Medya</h2>
+                <a href="https://www.instagram.com/kardelenngunel/?img_index=1" class="social-icon"><i target="_blank" class="fab fa-twitter"></i></a>
+                <img src="images/ıg.png" alt="Instagram Logo">
+                <a href="https://wa.me/905537363261" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <img src="images/wp.png" alt="Whatsapp Logo">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hatice Günel Healthy Beauty. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
